@@ -1,0 +1,36 @@
+day-02
+
+hosting
+
+gobal-local
+
+hub,switch,router-tower
+
+network eng
+MCTS,CCNA,RHCNA
+
+Backedn->api->frontend->client
+
+code editor
+-notepad
+-vs code
+-visual studio
+
+browser
+-internet explorer
+-chrome
+-firefox
+
+- free hosting
+- www.xyz.coampnyname.com
+
+Github - version control
+upload
+
+Browser
+git bash - CUI - character user interface
+git GUI - graphical user interfase4
+git desktop - software
+
+https://www.git-scm.com/downloads
+

@@ -1,0 +1,96 @@
+Day01
+- 1, 0
+
+11110000 - 1 character - a
+
+pulse
+00001111
+
+0-255 pattern
+
+256
+
+ASCII
+America Standard Code for Information Interchange
+
+Software Developer - profile
+language
+c,c++ - 
+<print> Hello </print> - syntex
+
+BIOS
+Basic Input Output System
+
+c
+C++		- 85% 
+JAVA
+Javascript		- 85% easy
+
+website- webapp
+html - hyper text markup language -
+
+
+http - hyper text trasfer protocol
+
+cloud
+24- start  - html
+
+server - listen - 
+
+client - request
+
+authorization/authantication
+
+software - offline
+website - online
+
+WebApp
+
+software
+mobile app
+anriod, ios
+facebook
+
+webapp
+html
+website
+software
+https
+
+software developer - 
+
+webapp developer
+startup
+website
+webapp developer
+
+php
+python
+
+frontend + backend + database
+
+
+frontend eng - 1lang
+backend eng - 1lang
+database eng - 1lang
+
+fullstack
+javascript - 3 area cover
+
+webapp
+website + application
+
+codeing
+html
+
+local network
+
+gobal network
+http - 789.563.421.123
+
+domain - aeeron.in
+server - harddisk - space
+hosting
+
+website
+domain + hosting(source file)
