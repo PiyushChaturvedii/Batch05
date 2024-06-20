@@ -1,0 +1,19 @@
+h1{
+    color: rgb(44, 184, 86);
+    
+}
+.mohan{
+    color: chocolate;
+    text-align: center;
+    border: solid royalblue 4px;
+    
+}
+
+#sohan{
+    color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-bottom: 6px dashed darkgreen ;
+    border-top: 6px dotted darkgoldenrod;
+}
