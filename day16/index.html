@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Font</title>
+    <style>
+        #box1{
+            width: 400px;
+            border: 2px solid blue;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-size: .5em;
+        }
+        #box2{
+            width: 400px;
+            border: 2px solid blue;
+            padding: 20px;
+            line-height: 2em;
+            font-variant: small-caps;
+        }
+        #box2 span{
+            font-size: 2em;
+            color: red;
+            font-weight: normal;
+            font-style: italic;
+
+        }
+        body{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS: Font</h1>
+
+    <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam voluptatum consectetur libero neque unde? Ipsa facere consectetur tempore amet enim quasi alias fugit natus excepturi. Velit ratione quas asperiores.
+    </div>
+    <div id="box2">
+        Lorem ipsum dolor <span>
+sit
+        </span>  amet consectetur adipisicing elit. Voluptas numquam voluptatum consectetur libero neque unde? Ipsa facere consectetur tempore amet enim quasi alias fugit natus excepturi. Velit ratione quas asperiores.
+    </div>
+</body>
+</html>
