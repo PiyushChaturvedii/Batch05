@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Transition</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            background: palevioletred;
+            /* transition-property: height, width;
+            transition-duration: 3s,7s; */
+        /* transition: width,height,background,3s,7s,12s;
+        } */
+        /* transition: all 3s,7s,12s ;
+        } */
+        transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: cubic-bezier(.12,.83,0,.06);
+    }
+
+
+        #box:hover{
+            background: blueviolet;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS: Transition</h1>
+
+    <div id="box"></div>
+</body>
+</html>
