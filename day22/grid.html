@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Grid</title>
+    <style>
+        .container{
+            background-color: white;
+            width: 700px;
+            margin: 50px 0 0 50px;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4,150px);
+            grid-gap: 20px;
+        }
+        /* .item1{
+            background-color: aqua;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        } */
+        .item1{
+            background-color: aqua;
+            grid-row: 2/3;
+            grid-column: 3/4;
+            /* grid-area: 2/3/3/4; */
+            z-index: 1;
+        }
+        .item2{
+            background-color: wheat;
+            grid-row: 2/span 2;
+        }
+        .item3{
+            background-color: red;
+            
+        }
+        .item4{
+            background-color: teal;
+            grid-column: 2/4;
+            grid-row: 2/3;
+        }
+        .item5{
+            background-color: yellow;
+        }
+        /* .item6{
+            background-color: indianred;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        } */
+        /* .item6{
+            background-color: indianred;
+         grid-row: 1/2;
+         grid-column: 1/ span 3;
+        } */
+        .item6{
+            background-color: indianred;
+         grid-row: 1/2;
+         grid-column: 1/ -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS: Grid</h1>
+
+    <div class="container">
+        <div class="items item1">First</div>
+        <div class="items item2">Second</div>
+        <div class="items item3">Third</div>
+        <div class="items item4">Fourth</div>
+        <div class="items item5">Fifth</div>
+        <div class="items item6">Sixth</div>
+    </div>
+</body>
+</html>
