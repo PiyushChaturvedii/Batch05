@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 const restaurant = {
     name: 'Italiano Restro',
@@ -22,56 +22,81 @@ const restaurant = {
             open: 10,
             close: 24,
         },
+    },
+    orderPizza: function(mainIngredient, ...otherIngredients){
+        console.log(mainIngredient);
+        console.log(otherIngredients);
     }
 }
 
 
-// a = 2;
-// a = [2, 3, 4, 5];
-// a = { a: 34, b: 34 };
+const rest1 = {
+    name: 'Restro 1',
+    numGuests: 0
+};
 
-const arr = [2, 3, 4];
-const a = arr[0];
-const b = arr[1];
-const c = arr[2];
-
-console.log(arr);
-
-console.log(a, b, c);
-
-const [x, y, z] = arr;
-console.log(x, y, z);
+const rest2 = {
+    name: 'Restro 2',
+    owner: 'Ram Sharma'
+}
 
 
-// const [first, second] = restaurant.categories;
-// console.log(first, second);
+// rest1.numGuests = rest1.numGuests || 10;
+// rest2.numGuests = rest2.numGuests || 10;
+// OR assignment operator
+// rest1.numGuests ||= 10;
+// rest2.numGuests ||= 10;
 
-let [first, , second] = restaurant.categories;
-console.log(first, second);
+//nullish assignment operator
+// rest1.numGuests ??= 10;
+// rest2.numGuests ??= 10;
 
-
-// let temp = first;
-// first = second;
-// second = temp;
-// console.log(first, second);
-
-[first, second] = [second, first];
-console.log(first,second);
+rest1.owner = rest1.owner && '<ANONYMOUS>';
+rest2.owner = rest2.owner && '<ANONYMOUS>';
 
 
-
-// console.log(restaurant.order(2, 0));
-const [starter, mainCourse] = restaurant.order(2, 0);
-console.log(starter, mainCourse);
-
-// Nested destructing
-const nested = [2, 4, [5, 6]];
-// const [i, , j] = nested;
-const [i, , [j,k]] = nested;
-console.log(i,j,k);
+rest1.owner &&= '<ANONYMOUS>';
+rest2.owner &&= '<ANONYMOUS>';
 
 
-//Default values
-const [p=1, q=1, r=1] = [8, 9];
-console.log(p,q,r);
+console.log(rest1);
+console.log(rest2);
+
+
+
+//Use ANY data type, return ANY data type,
+//short-circuiting
+
+// console.log(3 || 'Ram');
+// console.log('' || 'Ram');
+// console.log(true || 0);
+// console.log(undefined || null);
+
+
+// console.log(undefined || 0  || '' || 'Hello' || 23 || null);
+
+// restaurant.numGuests = 0;
+
+//Nullish: null and undefined (NOT 0 or '')
+// const guests1 = restaurant.numGuests ?? 10;
+// console.log(guests1);
+
+// const guests2 = restaurant.numGuests || 20;
+// console.log(guests2);
+
+// // --AND--
+
+// console.log('hello' && 0);
+// console.log(0 && 'hello');
+// console.log('hello' && 20 && null && 'Ram');
+
+
+
+// if(restaurant.orderPizza){
+//     restaurant.orderPizza('mushrooms', 'tomatoes');
+// }
+
+// restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'tomatoes');
+
+
 
