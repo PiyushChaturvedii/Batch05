@@ -1,0 +1,50 @@
+body{
+   overflow: hidden;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(180deg,white,#324252);
+}
+
+.container{
+   width: 1280px;
+   margin: auto;
+   cursor: pointer;
+}
+
+#timer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+#timer h1{
+   user-select: none;
+   color: blue;
+   font-size: 8vw;
+}
+
+@media (max-width : 1280px){
+   .container{
+      width: 95%;
+   }
+}
+
+@media (max-width: 768px){
+   #timer h1{
+      font-size: 4rem;
+      color: yellowgreen;
+   }
+}
+@media (max-width: 480px){
+   #timer h1{
+      font-size: 3.5rem;
+      color: rgb(221, 16, 16);
+   }
+}
+@media (max-width: 320px){
+   #timer h1{
+      font-size: 3rem;
+      color: rgb(27, 150, 238);
+   }
+}
+
