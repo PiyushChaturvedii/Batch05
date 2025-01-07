@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Keyboard App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='keys'>
+        <div class='key' data-key='65'>
+            <kbd>A</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div class='key' data-key='83'>
+            <kbd>S</kbd>
+            <span class="sound">bell</span>
+        </div>
+        <div class='key' data-key='68'>
+            <kbd>D</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div class='key' data-key='70'>
+            <kbd>F</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div class='key' data-key='71'>
+            <kbd>G</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div class='key' data-key='72'>
+            <kbd>H</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div class='key' data-key='74'>
+            <kbd>J</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div class='key' data-key='75'>
+            <kbd>K</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div class='key' data-key='76'>
+            <kbd>L</kbd>
+            <span class="sound">Clap</span>
+        </div>
+
+    </div>
+
+
+    <audio src="musicKeyboard/sounds_clap.mp3" data-key="65"></audio>
+    <audio src="musicKeyboard/sounds_bell.wav" data-key="83"></audio>
+    <audio src="musicKeyboard/sounds_boom.mp3" data-key="68"></audio>
+    <audio src="musicKeyboard/sounds_hihat.mp3" data-key="70"></audio>
+    <audio src="musicKeyboard/sounds_kick.mp3" data-key="71"></audio>
+    <audio src="musicKeyboard/sounds_openhat.wav" data-key="72"></audio>
+    <audio src="musicKeyboard/sounds_ride.wav" data-key="74"></audio>
+    <audio src="musicKeyboard/sounds_snare.wav" data-key="75"></audio>
+    <audio src="musicKeyboard/sounds_tom.wav" data-key="76"></audio>
+
+
+<script src="script.js"></script>
+</body>
+</html>

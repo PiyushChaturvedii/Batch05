@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightApp</title>    
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body id="bulbMain">
+    <h1 id="bulbdata">
+        Lights ON OFF
+    </h1>
+    <br>
+    <main class="lightapp">
+            <figure class="lightstyle">
+                <img src="lightoff.png" id="lightId1" onclick="tubelight()">
+                <figcaption>
+                    <p class="on">Light ON OFF</p>
+                </figcaption>
+            </figure>
+             <figure class="lightstyle">
+                <img src="lightoff.png" id="lightId2">
+                <figcaption>
+                    <p class="on">Light ON OFF</p>
+                </figcaption>
+            </figure>
+            <figure class="lightstyle">
+                <img src="lightoff.png" id="lightId3">
+                <figcaption>
+                    <p class="on">Light ON OFF</p>
+                </figcaption>
+            </figure>
+            <figure class="lightstyle">
+                <img src="lightoff.png" id="lightId4">
+                <figcaption>
+                    <p class="on">Light ON OFF</p>
+                </figcaption>
+            </figure>
+            <figure class="lightstyle">
+                <img src="lightoff.png" id="lightId5">
+                <figcaption>
+                    <p class="on">Light ON OFF</p>
+                </figcaption>
+            </figure>
+    </main>
+
+
+<div class="onoffbtn">
+   <label class="switch">
+  <input type="checkbox">
+  <span class="slider round" onclick="tubelight()"></span>
+</label>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
