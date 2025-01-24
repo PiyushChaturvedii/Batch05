@@ -15,7 +15,7 @@ router.get('/student/:id/course/:cid',function(req,res,next){
 router.post('/student/submit',function(req,res,next){
   var id = req.body.studentId;
   var cid = req.body.courseId;
-  res.redirect('/studnet/' + id +'/course/' + cid);
+  res.redirect('/student/' + id +'/course/' + cid);
   // res.json(req.body);
 })
 
