@@ -1,0 +1,101 @@
+.App{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+img{
+    max-width: 40px;
+}
+
+ul{
+    max-width:  600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15)0px 0px 0px 1px;
+}
+li{
+    font: 15px;
+    list-style: none;
+    margin: 20px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+li.completed{
+    box-shadow: rgb(62,150,0) 0px 1px 4px;
+}
+li.incomplete{
+    box-shadow: rgba(135, 20, 0, 0.689)0px 1px 4px;
+}
+
+button.delete{
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: red;
+}
+button.trigger{
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+.box{
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+}
+.box.success{
+    background-color: aquamarine;
+}
+.box.alert{
+    background-color: yellow;
+}
+.box.warning{
+    background-color: red;
+}
+
+.box p{
+    margin: 10px;
+}
+
+.box p.title{
+    font-size:20px;
+}
+
+.box p.description{
+    font-size: 14px;
+}
+
+.hidden{
+    display: none;
+}
