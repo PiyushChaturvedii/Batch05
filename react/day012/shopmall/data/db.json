@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1001",
+      "title": "Basic of ReactJS",
+      "price": 100,
+      "in_stock": true
+    },
+    {
+      "id": "1002",
+      "title": "Advanced of ReactJS",
+      "price": 200,
+      "in_stock": true
+    },
+    {
+      "id": "1003",
+      "title": "Completer Guide of ReactJS",
+      "price": 500,
+      "in_stock": false
+    },
+    {
+      "id": "1004",
+      "title": "Completer Guide of NodeJS",
+      "price": 700,
+      "in_stock": false
+    }
+  ]
+}
