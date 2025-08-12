@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase</title>
+  </head>
+  <body>
+    <form class="add">
+      <input name="name" type="text" placeholder="Name" autocomplete="off" />
+      <!-- <input
+        name="description"
+        type="text"
+        placeholder="Description"
+        autocomplete="off"
+      /> -->
+      <select name="category">
+        <option value="drama">Drama</option>
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+      </select>
+      <input type="submit" value="Add Movie" />
+    </form>
+
+    <form class="delete" style="margin-top: 50px">
+      <input type="text" placeholder="Movie ID" name="id" autocomplete="off" />
+      <input type="submit" value="Delete Movie" />
+    </form>
+
+    <form class="update" style="margin-top: 50px">
+      <input type="text" placeholder="Movie ID" name="id" autocomplete="off" />
+      <input type="text" placeholder="Name" name="name" autocomplete="off" />
+      <input type="submit" value="Update Movie" />
+    </form>
+
+    <script src="foo.bundle.js"></script>
+  </body>
+</html>
